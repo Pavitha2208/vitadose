@@ -1,16 +1,42 @@
-# React + Vite
+# VitaDose – Smart Medicine Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VitaDose is a web application that helps users manage their medicines safely and efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 💊 Medicine Reminder Dashboard
+- ⚠ Drug Interaction Checker
+- 📚 Medicine Library with Search
+- 🎨 Clean Pastel UI
+- 🌐 Multi-page React Website
 
-## React Compiler
+## Problem
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Many people forget to take medicines or accidentally combine medicines that can cause harmful side effects.
 
-## Expanding the ESLint configuration
+## Solution
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+VitaDose helps users:
+
+- Track medicines
+- Set reminders
+- Check if two medicines are safe to take together
+- Search common medicines
+
+## Tech Stack
+
+Frontend:
+- React
+- Vite
+- JavaScript
+- CSS
+
+Tools:
+- Git
+- GitHub
+
+## How to Run
+
+```bash
+npm install
+npm run dev
